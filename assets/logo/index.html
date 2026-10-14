@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artem Khmara Logo Kit</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&family=Manrope:wght@500;600&display=swap">
+<style>
+  :root { --ink: #1E2A3A; --mist: #F4F6F5; --teal: #4E8B82; --line: #E3E7E6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #FFFFFF; color: var(--ink); font-family: 'Manrope', 'Helvetica Neue', sans-serif; }
+  main { max-width: 1120px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-family: 'Unbounded', sans-serif; font-weight: 500; font-size: 28px; letter-spacing: 4px; margin: 0 0 8px; }
+  p.lead { margin: 0 0 40px; color: #4A5666; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  figure { margin: 0; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+  .tile { height: 220px; display: flex; align-items: center; justify-content: center; padding: 24px; background: var(--mist); }
+  .tile.dark { background: var(--ink); }
+  .tile.white { background: #FFFFFF; }
+  .tile img { max-width: 100%; max-height: 100%; }
+  figcaption { display: flex; justify-content: space-between; gap: 8px; padding: 12px 16px; font-size: 14px; font-weight: 600; }
+  figcaption a { color: var(--teal); font-weight: 500; }
+  .wide { grid-column: 1 / -1; }
+  .wide .tile { height: auto; padding: 0; background: #FFFFFF; }
+  .wide img { width: 100%; display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ARTEM KHMARA</h1>
+  <p class="lead">Logo kit — a single line rising from the horizon into a cloud, with a small sun.</p>
+  <div class="grid">
+    <figure><div class="tile"><img src="artem-khmara-primary.svg" alt="Primary stacked logo"></div><figcaption>Primary <a href="artem-khmara-primary.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile white"><img src="artem-khmara-horizontal.svg" alt="Horizontal logo"></div><figcaption>Horizontal <a href="artem-khmara-horizontal.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile"><img src="artem-khmara-mark.svg" alt="Mark"></div><figcaption>Mark <a href="artem-khmara-mark.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile dark"><img src="artem-khmara-mark-reversed.svg" alt="Mark, reversed"></div><figcaption>Mark · reversed <a href="artem-khmara-mark-reversed.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile white"><img src="artem-khmara-mark-mono.svg" alt="Mark, one colour"></div><figcaption>Mark · mono <a href="artem-khmara-mark-mono.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile" style="background: var(--teal)"><img src="artem-khmara-mark-white.svg" alt="Mark, white"></div><figcaption>Mark · white <a href="artem-khmara-mark-white.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile white"><img src="artem-khmara-icon-dark.svg" alt="App icon, dark" height="160"></div><figcaption>Icon · dark <a href="artem-khmara-icon-dark.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile white"><img src="artem-khmara-icon-light.svg" alt="App icon, light" height="160"></div><figcaption>Icon · light <a href="artem-khmara-icon-light.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile white"><img src="artem-khmara-icon-accent.svg" alt="App icon, teal" height="160"></div><figcaption>Icon · teal <a href="artem-khmara-icon-accent.svg" download>SVG</a></figcaption></figure>
+    <figure><div class="tile white"><img src="favicon.svg" alt="Favicon" height="64"></div><figcaption>Favicon <a href="favicon.svg" download>SVG</a></figcaption></figure>
+    <figure class="wide"><div class="tile"><img src="artem-khmara-logo-overview.png" alt="Logo system overview"></div><figcaption>Overview <a href="artem-khmara-logo-overview.png" download>PNG</a></figcaption></figure>
+  </div>
+</main>
+</body>
+</html>
